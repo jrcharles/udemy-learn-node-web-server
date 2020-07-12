@@ -1,3 +1,89 @@
-h1 {
-    
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('Avenir-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src:  url(data:application/x-font-woff;charset=utf-8;base64,) format('woff'), url('Avenir-Book.ttf')  format('truetype'), url('Avenir-Book.svg#Avenir-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.circle-border {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.bg-header {
+    /* background-color: #a9b7c0; */
+    background-color: #4abdac;
+}
+
+.bg-nav {
+  /*   background-color: #7192a7; */
+  background-color: #fc4a1a;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #4abdac;
+}
+
+.nav-link, .footer-link {
+    color: #ffffff;
+}
+
+.nav-link:hover  {
+    color: #4abdac;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #f7b733;
+    text-decoration: none;
+}
+
+h1, h2, p {
+    font-family: Avenir-Book;
+}
+
+.text-header {
+    font-family: Avenir-Book;
+    font-weight: 200;
+    color: #ffffff !important;
+}
+
+.footer-bg {
+    background-color: #4abdac;
+}
+
+.about-bg {
+    /* background-color: #efd9c1; */
+    background-color: #dfdce3;
+}
+
+.about {
+    color: #545454;
+    font-weight: 300;
+    font-family: Avenir-Book;
+}
+
+.imagedropshadow {
+    padding: 5px;
+    border: solid 1px #EFEFEF;
+}
+
+img.imagedropshadow {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}
+
+.yellow a {
+    color: #f7b733;
+    text-decoration: none;
 }
